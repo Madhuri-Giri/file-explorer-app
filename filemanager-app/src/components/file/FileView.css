@@ -1,0 +1,17 @@
+.file-view {
+  flex: 1;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.file-view .file-place {
+    color: #888;
+    font-size: 16px;
+}
+
+.file-view .file-content {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}

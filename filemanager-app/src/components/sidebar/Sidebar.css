@@ -1,0 +1,30 @@
+.sidebar {
+  width: 280px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.folder-item,
+.file-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+.folder-item:hover,
+.file-item:hover {
+  color: #007bff;
+}
+
+.folder-list {
+  padding-left: 20px;
+}
+
+.file-icon {
+  margin-right: 8px;
+}
